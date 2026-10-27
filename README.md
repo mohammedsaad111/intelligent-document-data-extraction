@@ -37,10 +37,7 @@ intelligent-document-data-extraction/
 ├── main.py
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-├── extracted_invoice.json
-├── extracted_invoice.csv
-└── extracted_items.csv
+└── .gitignore
 ```
 
 The extracted output files are generated when the program runs. They do not need to be committed to GitHub.
