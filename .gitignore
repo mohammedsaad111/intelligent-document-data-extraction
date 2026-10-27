@@ -1,0 +1,19 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# IDE settings
+.idea/
+
+# Generated extraction results
+extracted_invoice.json
+extracted_invoice.csv
+extracted_items.csv
+
+# Environment variables and secrets
+.env
