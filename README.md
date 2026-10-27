@@ -1,4 +1,3 @@
-
 # Intelligent Document Data Extraction System
 
 A Python-based document processing project that extracts structured information from invoice images using Optical Character Recognition (OCR).
@@ -30,6 +29,7 @@ It was developed as a personal project to practise Python, OCR, image processing
 
 ## Project Structure
 
+```text
 intelligent-document-data-extraction/
 ├── sample_documents/
 │   └── sample_invoice.png
@@ -37,22 +37,24 @@ intelligent-document-data-extraction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
-The extracted output files are generated when the program runs. They do not need to be committed to GitHub.
+The JSON and CSV output files are generated when the program runs and are intentionally excluded from Git.
 
 ## Requirements
 
 - Python 3.10 or later
-- Tesseract OCR installed on Windows
+- Tesseract OCR installed on your system
 - Python packages listed in `requirements.txt`
 
-## Installation
+## Installation and Usage
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/mohammedsaad111/intelligent-document-data-extraction.git
 cd intelligent-document-data-extraction
+```
 
 ### 2. Create a virtual environment
 
@@ -74,17 +76,13 @@ pip install -r requirements.txt
 
 ### 4. Configure Tesseract OCR
 
-Install Tesseract OCR and update the executable path in `main.py` if your installation location differs from the configured path.
+Install Tesseract OCR. If it is installed in a different location from the path configured in `main.py`, update the executable path in that file.
 
 ### 5. Run the project
 
-Place your invoice image at:
+The sample invoice is available at `sample_documents/sample_invoice.png`.
 
-```text
-sample_documents/sample_invoice.png
-```
-
-Then run:
+Run:
 
 ```bash
 python main.py
@@ -97,6 +95,8 @@ python main.py
 | `extracted_invoice.json` | Invoice fields, line items, and OCR text |
 | `extracted_invoice.csv` | Invoice-level data in tabular format |
 | `extracted_items.csv` | Extracted items, quantities, prices, and totals |
+
+These files are created when the program runs.
 
 ## Limitations
 
@@ -114,6 +114,6 @@ Extracted data should be verified before being used for accounting or other busi
 
 ## Author
 
-Mohammed Saad
+**Mohammed Saad**
 
 Personal project developed to build practical experience in Python, OCR, and document data extraction.
