@@ -30,7 +30,6 @@ It was developed as a personal project to practise Python, OCR, image processing
 
 ## Project Structure
 
-```text
 intelligent-document-data-extraction/
 ├── sample_documents/
 │   └── sample_invoice.png
@@ -38,7 +37,6 @@ intelligent-document-data-extraction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
 
 The extracted output files are generated when the program runs. They do not need to be committed to GitHub.
 
@@ -55,7 +53,6 @@ The extracted output files are generated when the program runs. They do not need
 ```bash
 git clone https://github.com/mohammedsaad111/intelligent-document-data-extraction.git
 cd intelligent-document-data-extraction
-```
 
 ### 2. Create a virtual environment
 
