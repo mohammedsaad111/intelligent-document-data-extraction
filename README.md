@@ -56,7 +56,7 @@ The extracted output files are generated when the program runs. They do not need
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/intelligent-document-data-extraction.git
+git clone https://github.com/mohammedsaad111/intelligent-document-data-extraction.git
 cd intelligent-document-data-extraction
 ```
 
